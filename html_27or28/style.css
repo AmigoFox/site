@@ -1,0 +1,141 @@
+.wrapper{
+    background-color: #242424;
+    width: 1100px;
+    margin: 0 auto;
+}
+.bg_for_menu{
+    width: 100vw;
+    background:#242424;
+}
+
+.menu a{
+    background:#242424;
+    padding: 13px 2px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 24px;
+
+}
+.menu{
+
+    margin-top: -8px;
+    display: flex;
+
+}
+.column{
+    display: flex;
+
+}
+.menu a:hover{
+    background:#8a8a8a;
+
+}
+
+.flex-container{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center; /* Выравниваем элементы по центру по горизонтали */
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.column_left, .column_right, .column_center{
+    margin-left: 10px;
+}
+
+
+.footer-wrp {
+    margin-right: 10px;
+	width: 250px;
+	background-color: #EBEBEB;
+	color: #000000;
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-wrp hr {
+	width: 250px;
+}
+
+.footer-wrp h2 {
+	margin: 10px 0 10px 0;
+}
+
+.footer-center p {
+	font-size: 15px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	text-align: center;
+	color: #ffffff;
+	min-height: 281px;
+}
+
+.footer-center {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+
+.copyright {
+	min-height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	background-color: #242424; 
+    display: flex;
+    font-size: 13px;
+    text-align: center;
+    min-height: 281px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+body,
+p,
+h1,
+h2,
+ul {
+	margin: 0;
+	padding: 0;
+}
+.footer-center {
+    width: 1100px;
+    margin: 0 auto;
+}
+body{
+    background-color:#EBEBEB ;
+}
