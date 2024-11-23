@@ -1,0 +1,53 @@
+.wrapper{
+    width: 762px;
+    margin:-5px auto;
+    background-color: white;
+}
+.wrapper a,p,h1,h2, .table{
+    padding: 5px;
+}
+
+.w{
+    background: rgb(229, 229, 229);
+}
+.menu a{
+
+    padding: 13px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+.menu{
+    display: flex;
+    background-color: orange;
+
+}
+.column{
+    display: flex;
+
+}
+
+.menu a:hover{
+    background-color:rgb(208, 144, 25) ;
+
+}
+.column_left{
+    margin-left: 15px;
+}
+.table{
+    width: 100%;
+}
+.end{
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: orange;
+}
+.bee{
+    margin-top: -482px;
+    width: 600px;
+    height: 477px;
+
+}
